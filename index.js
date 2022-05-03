@@ -30,16 +30,7 @@ function login(){
     if(e.uname != lname && e.password != pwd){
         document.getElementById("msg").innerText = "Wrong Credentials..!"
     }else if(e.uname == lname && e.password == pwd){
-        window.location.href = "homepage.html"
+        window.location.href = "homepage.html";
     }
    })
 }
-
-
-// function login(){
-//     showData()
-// }
-
-// function showData(el){
-//     localStorage.setItem("Register", JSON.stringify(el));
-// }
