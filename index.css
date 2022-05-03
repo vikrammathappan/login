@@ -1,0 +1,133 @@
+#main{
+    display:flex;
+    width: 100%;
+    height: 600px;
+    border: 1px solid green;
+    background-image: url("https://thumbs.dreamstime.com/b/wedding-flower-frame-blue-background-above-beautiful-floral-pattern-flat-lay-style-79676427.jpg"); */
+}
+#signup{
+    width: 30%;
+    height: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsT--dn0tZC70xhRxF23Q_V6dRBCFmfQv90g&usqp=CAU");
+    border: white double 1px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 150px;
+    margin-left: 230px;
+    border-radius: 30px;
+}
+
+#sname{
+    width: 62%;
+    height: 20px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-left: 75px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+#h1{
+    margin-left:130px ;
+    color: brown;
+}
+#h2{
+    margin-left:130px ;
+    color: brown;
+}
+#username{
+    margin-top: 15px;
+    width: 62%;
+    height: 20px;
+    border: black 1px solid;
+    margin-left: 75px;
+    border-radius: 5px;
+    text-align: center;
+}
+#email{
+    margin-top: 15px;
+    width: 62%;
+    height: 20px;
+    border: black 1px solid;
+    margin-left: 75px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#phone{
+    margin-top: 15px;
+    width: 62%;
+    height: 20px;
+    border: black 1px solid;
+    margin-left: 75px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#password{
+    margin-top: 15px;
+    width: 62%;
+    height: 20px;
+    border: black 1px solid;
+    margin-left: 75px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#button{
+    margin-top: 35px;
+    width: 12%;
+    height: 20px;
+    border: black 1px solid;
+    margin-left: 170px;
+    border-radius: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+#button:hover{
+    background-color: black;
+
+}
+#signin{
+    width: 30%;
+    height: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsT--dn0tZC70xhRxF23Q_V6dRBCFmfQv90g&usqp=CAU");
+    border: white double 1px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+#tname{
+    width: 62%;
+    height: 20px;
+    border: black 1px solid;
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+
+}
+#epassword{
+    width: 62%;
+    height: 20px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-left: 75px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:white;
+
+}
+#login{
+    margin-top: 35px;
+    width: 12%;
+    height: 20px;
+    border: black 1px solid;
+    margin-left: 170px;
+    border-radius: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+
+
+}
