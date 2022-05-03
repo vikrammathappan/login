@@ -2,6 +2,7 @@ document.getElementById("button").addEventListener("click", signup);
 
 var arr = JSON.parse(localStorage.getItem("Register")) ||  [];
 
+
 function signup(){
 
     var obj = {
@@ -26,13 +27,19 @@ function login(){
     var pwd = document.getElementById("epassword").value;
 
    x.map(function(e){
-
     if(e.uname != lname && e.password != pwd){
         document.getElementById("msg").innerText = "Wrong Credentials..!"
     }else if(e.uname == lname && e.password == pwd){
         window.location.href = "homepage.html"
-    } 
-
+    }
    })
+}
 
-} 
+
+// function login(){
+//     showData()
+// }
+
+// function showData(el){
+//     localStorage.setItem("Register", JSON.stringify(el));
+// }
